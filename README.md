@@ -2,6 +2,7 @@
 
 A Visualized Prototype Based on High-Risk Facial Feature Database and Adaptive Interference
 
+**Author:** Chufan Li | Application for MSc in AI and Digital Media, HKBU
 
 ---
 
@@ -30,9 +31,9 @@ Note: Results vary depending on the input image and the selected interference me
 
 ## Key Trade-off and Future Direction
 
-During the development of this prototype, I discovered a critical practical trade-off: while stronger interference successfully mitigates similarity to a safe range, it degrades visual image quality. 
+During the development of this prototype, I discovered a critical practical trade-off: while stronger interference successfully mitigates similarity to a safe range, it degrades visual image quality. Consequently, the current prototype remains a proof-of-concept and is not yet ready for real-world commercial deployment. 
 
-This reveals that pure technical intervention is insufficient for real-world commercial deployment. It directly motivates my pursuit of cross-disciplinary studies at HKBU (MSc in AI and Digital Media)—to bridge the gap between technical algorithms, AI governance, and media ethics.
+This limitation directly motivates my pursuit of cross-disciplinary studies at HKBU (MSc in AI and Digital Media)—to bridge the gap between technical algorithms, AI governance, and media ethics.
 
 ## Tech Stack
 
@@ -42,9 +43,9 @@ This reveals that pure technical intervention is insufficient for real-world com
 - Data Visualization: Matplotlib
 - Database: SQLite
 
-## Quick Start and Note for Reviewers
+## Quick Start and Note
 
-**Note for Reviewers:** Due to the local environment setup complexity (including C++ compilation dependencies for InsightFace and large pre-trained model downloads), running the code locally on a new machine may require additional environment configuration. Please refer to the PDF Portfolio and Demo Video for a quick overview of the system's functionality and validation results.
+Due to the local environment setup complexity (including C++ compilation dependencies for InsightFace and large pre-trained model downloads), running the code locally on a new machine may require additional environment configuration. Please refer to the PDF Portfolio for a quick overview of the system's functionality and validation results.
 
 If you still wish to run it locally:
 1. Clone the repository.
